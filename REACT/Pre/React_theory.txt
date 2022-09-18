@@ -26,3 +26,14 @@ Dynamic=>Class components
 State => React object hai jiske pass information / properties hai react component ki
 Render => jo bhi hum class component k ander render pe likhte hai wo UI pe display hota hai
 Jab bhi state change hoti hai to react ko pata hota hai ki render phirse chalana hai
+
+
+
+rcc+tab press karne se class component ban jayegi ye shortcut hai
+aur 
+rfce + tab press karne se object component ban jayegi ye shortcut hai 
+
+
+Export karne k 2 tareeke hai
+1. export matlab normal export isko kitni baar bhi export kar sakte hai like import {arr} from '___' address
+2. export default isko sirf ek baar ek file me kar sakte hai lekin import comp from '____'

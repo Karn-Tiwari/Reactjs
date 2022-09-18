@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <!-- Algo ka kaam ye link karti hai -->
+   <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+   <!-- // DOM lagane ka kaam ye link karta hai -->
+   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+   <!-- // aur ye abhi kuch age seekhte jayenge -->
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <script type="text/babel">
+        class Counter extends React.Component{
+        constructor(){
+            super(); // hume isse is class ka this milta hai
+            this.state = {
+                count:0
+            }
+
+        }
+        // function
+        increament = () =>{
+           // this.state.count = this.state.count + i;// Wrong method
+            this.setState({
+                count:this.state.count + 1
+            })
+        }
+        decrement = () =>{
+            // this.state.count = this.state.count + i;// Wrong method
+             this.setState({
+                 count:this.state.count - 1
+             })
+         }
+        render(){
+            return(
+                <React.Fragment>
+                    <button>{this.state.count}</button>
+                    <button onClick={this.increament}>+</button>
+                    <button onClick={this.decrement}>-</button>
+                    </React.Fragment>
+                    
+            )
+        }
+    }
+    ReactDOM.render(<counter></counter>,document.getElementById("root"));
+    </script>
+</body>
+</html>
