@@ -18,16 +18,44 @@
 <body>
 
 </body>
-<script>
-     let ele = document.createElement("h1");
-    ele.innerHTML = "Hello World";
-    let root = document.getElementById("root");
-    console.log(ele);
-    root.appendChild(ele);
+<script type="text/babel">
+    // let ele = document.createElement("h1");
+   // ele.innerHTML = "Hello World";
+   // let root = document.getElementById("root");
+   // console.log(ele);
+   // root.appendChild(ele);
 
     //let root = document.getElementById("root");
    // let ele = React.createELement("h1",{
     //    Children:["Hello World"]
     //});
+
+    // JSX
+//let root = document.getElementById("root");
+
+// FUNCTIONAL COMPONENTS
+    function Element({name="default",place='ayodhya'}){
+        console.log(name);
+        return(
+            <div>
+                <h1>Hello World {name}</h1>
+                <h4>{place}</h4>
+            </div>
+           
+        )
+    }  
+    function Main(){
+        return(
+            <React.Fragment>
+                <Element name ='Karn' place = 'ayodhya'/>
+                <Element/>
+                <Element/>
+                <Element/>
+                <Element/>
+            </React.Fragment>
+        )
+    }
+        ReactDOM.render(<Element/>,document.getElementById("root"));// Is react rendor ko ek hi baar call kar sakte hai ek se jyada nhi
+    
 </script>
 </html>

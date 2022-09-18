@@ -1,0 +1,28 @@
+REACT => It is a js library which is used to develop UI or frontend
+It is developed by facebook
+
+WHY??
+1.Very fast
+2.Easy event handling(shortcuts provide kar deta hai)
+3.It's a small library and easy to learn
+4.It manages UI by statements
+
+
+
+COPONENTS=>Chhote chhote components me break kar lete hai aur jo change ho rha hai sirf usi ko badalte hai baki page ka elements same rehta hai wo sab nhi change hota hai
+
+JSX => It allows us to write HTML inside the Javascript and place them in the DOM without using function like appendChild() or createElement() As stand in the official docs of React.JSX provides symetric sugar for React createElement() function
+
+RURLES=>What is not allowed ?
+
+No varible declaration 
+No function declaration
+No loops for,while and do while not allowed
+If else condition not allowed
+We cant render objects
+
+Static UI => Functional components, hooks
+Dynamic=>Class components 
+State => React object hai jiske pass information / properties hai react component ki
+Render => jo bhi hum class component k ander render pe likhte hai wo UI pe display hota hai
+Jab bhi state change hoti hai to react ko pata hota hai ki render phirse chalana hai
