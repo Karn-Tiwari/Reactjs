@@ -14,26 +14,28 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-import Card from "./Cards";
 import "./index.css";
-import Sdata from "./Sdata";
+import App from "./App";
 
-function ncard(val)
-{
-    return(
-        <Card
-        imgsrc={val.imgsrc}
-        title={val.title}
-        sName={val.sName}
-        link={val.link}
-        watch={val.watch}
-        />
-    );
-}
 
-ReactDOM.render(
-  <>
-    <h1 className="heading_style">Netflix Series</h1>
+// function ncard(val)
+// {
+//     return(
+//         <Card
+//         // Why key=> key help react identify which items have changed, are added, or are removed. Keys should be given to the elements inside the array to give the elements a stable identity:
+//         key={val.id}
+//         imgsrc={val.imgsrc}
+//         title={val.title}
+//         sName={val.sName}
+//         link={val.link}
+//         watch={val.watch}
+//         />
+//     );
+// }
+
+// ReactDOM.render(
+//   <>
+    {/* <h1 className="heading_style">Netflix Series</h1> */}
     {/* <Card
      imgsrc={Sdata[0].imgsrc}
         title={Sdata[0].title}
@@ -84,10 +86,14 @@ ReactDOM.render(
         watch={Sdata[6].watch}
         /> */}
 {/* ye map function ka use kiya gaya jiski help se hum ncard function ko call karke ek ek card ko render kar sakte hai by val parameter */}
-        {Sdata.map(ncard)}
+        {/* {Sdata.map(ncard)} */}
        
      
  
-  </>,
+  {/* </>,
   document.getElementById("root")
-);
+); */}
+
+
+ReactDOM.render(<App/>,document.getElementById("root"));
+

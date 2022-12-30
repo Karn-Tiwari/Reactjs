@@ -1,5 +1,6 @@
 const sData = [
   {
+    id:"1",
     sName: "DARK",
     imgsrc: "https://wallpapercave.com/w/wp5770334.jpg",
     title: "A Netflix Original Series",
@@ -8,6 +9,7 @@ const sData = [
   },
 
   {
+    id:"2",
     sName: "The Witcher",
     imgsrc: "https://wallpapercave.com/w/wp5410716.jpg",
     title: "A Netflix Original Series",
@@ -15,6 +17,7 @@ const sData = [
     watch: "Watch Now",
   },
   {
+    id:"3",
     sName: "Stranger Things",
     imgsrc: "https://wallpapercave.com/w/wp10676647.jpg",
     title: "A Netflix Original Series",
@@ -23,6 +26,7 @@ const sData = [
   },
 
   {
+    id:"4",
     sName: "Sacred Games",
     imgsrc: "https://wallpapercave.com/w/wp4555155.jpg",
     title: "A Netflix Original Series",
@@ -30,6 +34,7 @@ const sData = [
     watch: "Watch Now",
   },
   {
+    id:"5",
     sName: "Peaky Blinders",
     imgsrc: "https://wallpapercave.com/w/wp9537129.jpg",
     title: "A Netflix Original Series",
@@ -37,13 +42,15 @@ const sData = [
     watch: "Watch Now",
   },
   {
-    sName: "Breaking Bad",
-    imgsrc: "https://wallpapercave.com/w/wp5311802.jpg",
-    title: "A Netflix Original Series",
-    link: "https://www.netflix.com/in/title/70143836",
+    id:"6",
+    sName: "Vampire Diaries",
+    imgsrc: "https://wallpapercave.com/w/uwp2746604.jpg",
+    title: "Amozon Original Series",
+    link: "https://www.primevideo.com/detail/0HOK2IOF5E6RFUO8LL6L4LAW3W/?ref_=dvm_pds_gen_in_as_s_gm_dsafeedn_mkw_s-dc&mrntrk=pcrid_580613895533_slid__pgrid_120713930559_pgeo_21334_x_39528976673_adext__ptid_dsa-1354015554188&gclid=CjwKCAiAkrWdBhBkEiwAZ9cdcFADXcQb8_hLr9MhooNmTXkX92eOXqfmor4IzbYIYdDVw9DEL0sCnxoCpUEQAvD_BwE",
     watch: "Watch Now",
   },
   {
+    id:"7",
     sName: "vikings",
     imgsrc: "https://wallpapercave.com/w/wp7994370.jpg",
     title: "A Netflix Original Series",
@@ -51,6 +58,7 @@ const sData = [
     watch: "Watch Now",
   },
   {
+    id:"8",
     sName: "DARK",
     imgsrc: "https://wallpapercave.com/w/wp5770334.jpg",
     title: "A Netflix Original Series",
@@ -59,6 +67,7 @@ const sData = [
   },
 
   {
+    id:"9",
     sName: "The Witcher",
     imgsrc: "https://wallpapercave.com/w/wp5410716.jpg",
     title: "A Netflix Original Series",
@@ -66,6 +75,7 @@ const sData = [
     watch: "Watch Now",
   },
   {
+    id:"10",
     sName: "Stranger Things",
     imgsrc: "https://wallpapercave.com/w/wp10676647.jpg",
     title: "A Netflix Original Series",
@@ -74,6 +84,7 @@ const sData = [
   },
 
   {
+    id:"11",
     sName: "Sacred Games",
     imgsrc: "https://wallpapercave.com/w/wp4555155.jpg",
     title: "A Netflix Original Series",
@@ -81,6 +92,7 @@ const sData = [
     watch: "Watch Now",
   },
   {
+    id:"12",
     sName: "Peaky Blinders",
     imgsrc: "https://wallpapercave.com/w/wp9537129.jpg",
     title: "A Netflix Original Series",
@@ -88,6 +100,7 @@ const sData = [
     watch: "Watch Now",
   },
   {
+    id:"13",
     sName: "Breaking Bad",
     imgsrc: "https://wallpapercave.com/w/wp5311802.jpg",
     title: "A Netflix Original Series",
@@ -95,6 +108,7 @@ const sData = [
     watch: "Watch Now",
   },
   {
+    id:"14",
     sName: "vikings",
     imgsrc: "https://wallpapercave.com/w/wp7994370.jpg",
     title: "A Netflix Original Series",
@@ -102,6 +116,7 @@ const sData = [
     watch: "Watch Now",
   },
   {
+    id:"15",
     sName: "DARK",
     imgsrc: "https://wallpapercave.com/w/wp5770334.jpg",
     title: "A Netflix Original Series",
@@ -110,6 +125,7 @@ const sData = [
   },
 
   {
+    id:"16",
     sName: "The Witcher",
     imgsrc: "https://wallpapercave.com/w/wp5410716.jpg",
     title: "A Netflix Original Series",
@@ -117,6 +133,7 @@ const sData = [
     watch: "Watch Now",
   },
   {
+    id:"17",
     sName: "Stranger Things",
     imgsrc: "https://wallpapercave.com/w/wp10676647.jpg",
     title: "A Netflix Original Series",
@@ -125,6 +142,7 @@ const sData = [
   },
 
   {
+    id:"18",
     sName: "Sacred Games",
     imgsrc: "https://wallpapercave.com/w/wp4555155.jpg",
     title: "A Netflix Original Series",
@@ -132,6 +150,7 @@ const sData = [
     watch: "Watch Now",
   },
   {
+    id:"19",
     sName: "Peaky Blinders",
     imgsrc: "https://wallpapercave.com/w/wp9537129.jpg",
     title: "A Netflix Original Series",
@@ -139,6 +158,7 @@ const sData = [
     watch: "Watch Now",
   },
   {
+    id:"20",
     sName: "Breaking Bad",
     imgsrc: "https://wallpapercave.com/w/wp5311802.jpg",
     title: "A Netflix Original Series",
@@ -146,6 +166,7 @@ const sData = [
     watch: "Watch Now",
   },
   {
+    id:"21",
     sName: "vikings",
     imgsrc: "https://wallpapercave.com/w/wp7994370.jpg",
     title: "A Netflix Original Series",
