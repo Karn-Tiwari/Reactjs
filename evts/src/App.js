@@ -24,7 +24,7 @@ const App = ()=>{
   return (
     <>
     <div style={{background:bg}}>
-      <button onClick = {bgChange} onDoubleClick = {{bgBack}}>{name}</button>
+      <button onClick = {bgChange} onDoubleClick = {bgBack}>{name}</button>
 
     </div>
     </>
