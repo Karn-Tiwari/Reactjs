@@ -22,7 +22,8 @@ const App = () => {
       <div className="main_div">
         <form onSubmit={onSubmit}>
           <div>
-           
+            {/* // In a controlled component,form data is handled by a React components.
+        // The alternative is uncontrolled components,where form data is handled by the DOM itself. */}
             <h1>Email Id {emailName}</h1>
             <input
               type="text"
